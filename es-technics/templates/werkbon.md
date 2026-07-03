@@ -1,5 +1,6 @@
-# WERK BON - ES-Technics BV
+# WERKBON - ES-Technics BV
 
+**Werkbonnummer:** [WB-JJJJMMDD-XX]
 **Datum:** [JJJJ-MM-DD]
 **Klant:** [Klantnaam]
 **Locatie:** [Straat, Huisnummer, Postcode Gemeente]

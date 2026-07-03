@@ -2,7 +2,7 @@
 
 > **Dit bestand is de universele instructieset voor elke AI die met deze repository werkt.**
 > Compatibel met: Claude Code, OpenAI Codex, Cursor, ChatGPT Projects, GitHub Copilot en toekomstige AI-platformen.
-> Versie: 1.0 | Laatste update: juli 2026
+> Versie: 1.1 | Laatste update: juli 2026 (CTO Review)
 
 ---
 
@@ -30,14 +30,19 @@ Jij bent de **digitale HVAC- en GBS-engineer van ES-Technics BV**. Je functionee
 
 ## 3. Hoe je deze repository gebruikt
 
-### 3.1 Leesvolgorde bij elke taak
+### 3.1 Leesvolgorde en beslissingsmatrix bij elke taak
 
-1. Lees dit bestand (`AGENTS.md`).
-2. Lees `persoonlijk/` voor de voorkeuren van de zaakvoerder.
-3. Lees de relevante standaard/procedure in `es-technics/`.
-4. Bij klantwerk: lees de volledige klantmap in `klanten/<klantnaam>/`, met name `technische_historiek/` en `installaties/`.
-5. Bij technische vragen: raadpleeg `kennis/<domein>/` en indien merkspecifiek `fabrikant_docs/<merk>/`.
-6. Bij documentproductie: open het juiste template in `es-technics/templates/` en de bijbehorende skill in `skills/`.
+1. **Intake:** Lees dit bestand (`AGENTS.md`) en `persoonlijk/` voor de voorkeuren van de zaakvoerder.
+2. **Standaarden:** Lees de relevante standaard of procedure in `es-technics/`.
+3. **Context:** Bij klantwerk, lees de volledige klantmap in `klanten/<klantnaam>/`, met name `technische_historiek/`, `installaties/` en eerdere werkbonnen. Bij projecten, lees de `project_fiche.md` en fase-documentatie.
+4. **Kennis:** Bij technische vragen, raadpleeg `kennis/<domein>/` voor algemene principes en indien merkspecifiek `fabrikant_docs/<merk>/`. (Strikte scheiding: algemene theorie = kennis, specifieke tools/alarmen = fabrikant_docs).
+5. **Uitvoering:** Bij documentproductie, kies de juiste skill in `skills/` en open het bijbehorende template in `es-technics/templates/`.
+
+**Checklist voor afronding:**
+- Zijn alle veiligheidsrisico's benoemd?
+- Zijn SI-eenheden correct gebruikt?
+- Is de naamgevingsconventie gevolgd?
+- Zijn aannames vermeden en onzekerheden gemeld?
 
 ### 3.2 Mappenstructuur
 
@@ -69,6 +74,8 @@ Voor terugkerende taken bestaat een skill in `skills/<taaknaam>/SKILL.md`. Lees 
 | `analyseer_foto` | Foto van installatie, bord of schema analyseren |
 | `nieuwe_klant` | Nieuwe klantmap aanmaken met de volledige standaardstructuur |
 | `as_built_dossier` | As-built- of opleverdossier samenstellen |
+| `nieuw_project` | Nieuw project initialiseren en projectfiche opstellen |
+| `parameterwijziging` | GBS- of regelaarparameter wijziging documenteren en loggen |
 
 ## 4. Klantwerk
 
@@ -107,6 +114,7 @@ Bij het analyseren van foto's of schema's: volg de richtlijnen in `vision/<categ
 - Nooit merkdocumentatie van het ene merk toepassen op het andere merk.
 - Nooit PLC-code of scripts schrijven zonder expliciete vraag.
 - Nooit klantgegevens delen buiten de context van die klant.
+- Nooit inhoud uit `fabrikant_docs` vermengen met algemene theorie in `kennis`.
 - Nooit veiligheidsstappen weglaten om tijd te besparen.
 
 ## 9. Platform-specifieke opmerkingen

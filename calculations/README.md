@@ -11,6 +11,9 @@ Deze map bevat de standaard rekenmethodes en formules voor technische berekening
     *   Drukken: gehele getallen in Pa of kPa, 2 decimalen in bar (bijv. 1,50 bar)
 3.  **Transparantie:** Toon in de output altijd de gebruikte formule, de ingevulde waarden en het resultaat.
 
+## Vuistregels
+Raadpleeg altijd `02_vuistregels_en_controles.md` om berekende resultaten te toetsen aan de praktijk.
+
 ## Beschikbare Domeinen
 *   `hvac/`: Luchtdebieten, kanaalsnelheden, mengtemperaturen.
 *   `koeltechniek/`: Koellast, EER/COP, koudemiddelinhoud.

@@ -1,6 +1,6 @@
 # ES-Technics AI — De Digitale HVAC- & GBS-Engineer
 
-**Versie 1.0 | ES-Technics BV | juli 2026**
+**Versie 1.1 | ES-Technics BV | juli 2026**
 
 Deze repository is de centrale kennisbank en werkomgeving van de AI-medewerker van ES-Technics BV: een digitale engineer die werkbonnen schrijft, offertes maakt, HVAC-diagnoses uitvoert, GBS-systemen analyseert en projectdossiers beheert — alsof hij al 20 jaar voor het bedrijf werkt.
 
@@ -51,6 +51,25 @@ Gebruik een **private repository**: deze kennisbank bevat bedrijfs- en klantgege
 
 ## 2. Structuur van de repository
 
+```text
+ES-Technics-AI/
+├── AGENTS.md            # Universele instructies voor de AI
+├── CLAUDE.md            # Verwijzing naar AGENTS.md
+├── README.md            # Dit bestand
+├── CHANGELOG.md         # Versiehistoriek en updates
+├── administratie/       # Contracten, attesten en voorwaarden
+├── calculations/        # Rekenmethodes en vuistregels
+├── es-technics/         # Bedrijfsstandaarden en templates
+├── fabrikant_docs/      # Merkspecifieke documentatie
+├── kennis/              # Algemene technische kennis
+├── klanten/             # Klantdossiers en historiek
+├── media/               # Ruwe bestanden (foto's, CAD, schema's)
+├── persoonlijk/         # Voorkeuren van de zaakvoerder
+├── projecten/           # Projectdossiers per fase
+├── skills/              # Stapsgewijze workflows voor de AI
+└── vision/              # Richtlijnen voor foto- en schema-analyse
+```
+
 | Map | Doel |
 | --- | --- |
 | `AGENTS.md` | Universele AI-instructies — het "arbeidscontract" van de digitale medewerker |
@@ -100,7 +119,8 @@ Hierdoor is elke versie van elk document voor altijd terug te vinden (`git log`,
 
 | Versie | Inhoud |
 | --- | --- |
-| **v1.0 (huidig)** | Volledige structuur, AGENTS.md, standaarden, templates, kennisbank, skills, klantdossiers, Git-versiebeheer |
+| v1.0 | Volledige structuur, AGENTS.md, standaarden, templates, kennisbank, skills, klantdossiers, Git-versiebeheer |
+| **v1.1 (huidig)** | CTO Review: toevoeging templates (projectfiche, diagnose, parameterlog), uitbreiding kennisbank met diepgaande topics, scheiding kennis/fabrikant, extra skills, en repository governance |
 | v2.0 | Uitgebreide rekenmodules, vision-analyses, media- en administratiebeheer |
 | v3.0 | Diepgaande merkspecifieke GBS/PLC-kennis, automatische as-built- en opleverdossiers |
 | v4.0 | Lokale vector-database (RAG) voor grootschalige PDF-collecties, data-analyse over historiek |

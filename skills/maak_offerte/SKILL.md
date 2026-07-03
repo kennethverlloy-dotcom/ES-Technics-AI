@@ -15,7 +15,7 @@ Een nauwkeurige, commercieel correcte en technisch onderbouwde offerte genereren
 
 1.  **Context Verzamelen:**
     - Zoek in de map `klanten/<klantnaam>/` naar eerdere offertes of de technische historiek om de context te begrijpen.
-    - Raadpleeg `persoonlijk/leveranciers/` of `kennis/` voor voorkeursmerken (bijv. Systemair voor luchtgroepen, WAGO voor PLC's). Let op de richtlijn uit de kennisbank: *Prioritize reusing existing channels but ensure they are isolated. When considering brands, explore alternatives beyond the usual, such as Systemair.*
+    - Raadpleeg `persoonlijk/leveranciers/` of `kennis/` voor voorkeursmerken (bijv. Systemair voor luchtgroepen, WAGO voor PLC's). Let op de richtlijn: geef prioriteit aan het hergebruiken van bestaande kanalen mits deze geïsoleerd zijn, en overweeg bij merkkeuze ook alternatieven zoals Systemair.
 
 2.  **Materialen en Uren Bepalen:**
     - Als de materialen niet expliciet zijn opgegeven, maak dan een logische technische inschatting op basis van de scope.
